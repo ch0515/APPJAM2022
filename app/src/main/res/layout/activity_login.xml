@@ -8,12 +8,14 @@
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp">
 
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="10dp"
+        <ImageButton android:id="@+id/logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:padding="0sp"
             android:scaleType="centerCrop"
             android:src="@drawable/logo" />
 
@@ -22,13 +24,12 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <ImageButton
+        <ImageButton android:id="@+id/profile"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/shape_for_circle_buutton" />
     </LinearLayout>
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APPJAM2022">
         <activity
+            android:name=".fpro4"
+            android:exported="false" />
+        <activity
+            android:name=".fpro3"
+            android:exported="false" />
+        <activity
+            android:name=".fpro2"
+            android:exported="false" />
+        <activity
+            android:name=".fpro1"
+            android:exported="false" />
+        <activity
+            android:name=".pro5"
+            android:exported="false" />
+        <activity
+            android:name=".pro4"
+            android:exported="false" />
+        <activity
+            android:name=".pro3"
+            android:exported="false" />
+        <activity
+            android:name=".pro2"
+            android:exported="false" />
+        <activity
+            android:name=".pro1"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
