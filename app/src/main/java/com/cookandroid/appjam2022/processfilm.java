@@ -13,7 +13,7 @@ public class processfilm extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_processfilm);
-        logo = findViewById(R.id.logo);
+        logo = (ImageButton) findViewById(R.id.logo);
         Imbtn1 = findViewById(R.id.Imbtn1);
         Imbtn2 = findViewById(R.id.Imbtn2);
         Imbtn3 = findViewById(R.id.Imbtn3);
@@ -21,7 +21,10 @@ public class processfilm extends AppCompatActivity {
         profile = findViewById(R.id.profile);
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { finish(); }
+            public void onClick(View view) {
+                Intent int2 = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(int2);
+            }
         });
         Imbtn1.setOnClickListener(new View.OnClickListener() {
             @Override

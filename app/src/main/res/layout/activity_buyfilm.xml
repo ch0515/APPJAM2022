@@ -104,7 +104,7 @@
             android:layout_marginTop="40dp"
             android:layout_margin="10dp"
             android:id="@+id/img3"
-            android:src="@drawable/film1" />
+            android:src="@drawable/film3" />
 
         <ImageButton
             android:layout_width="180dp"
@@ -115,7 +115,7 @@
             android:layout_marginTop="40dp"
             android:layout_margin="10dp"
             android:id="@+id/img4"
-            android:src="@drawable/film2" />
+            android:src="@drawable/film4" />
 
         <TextView
             android:text="Vision3 50D "

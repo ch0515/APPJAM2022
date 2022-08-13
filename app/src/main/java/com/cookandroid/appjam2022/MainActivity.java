@@ -53,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(int1);
             }
         });
+        Imbtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1 = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(int1);
+            }
+        });
         Imbtn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
