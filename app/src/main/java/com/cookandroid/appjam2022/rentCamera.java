@@ -1,5 +1,6 @@
 package com.cookandroid.appjam2022;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,11 +17,13 @@ public class rentCamera extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rent_camera);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
         logo = findViewById(R.id.logo);
-        Imbtn1 = findViewById(R.id.btn1);
-        Imbtn2 = findViewById(R.id.btn2);
-        Imbtn3 = findViewById(R.id.btn3);
-        Imbtn4 = findViewById(R.id.btn4);
+        Imbtn1 = findViewById(R.id.Imbtn1);
+        Imbtn2 = findViewById(R.id.Imbtn2);
+        Imbtn3 = findViewById(R.id.Imbtn3);
+        Imbtn4 = findViewById(R.id.Imbtn4);
         profile = findViewById(R.id.profile);
         img1 = findViewById(R.id.img1);
         img2 = findViewById(R.id.img2);

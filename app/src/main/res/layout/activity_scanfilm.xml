@@ -144,25 +144,38 @@
         android:gravity="center"
         android:background="#72F3F3F3">
         <ImageButton android:id="@+id/Imbtn1"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/shape_for_circle_buutton" />
+            android:scaleType="centerCrop"
+            android:padding="5sp"
+            android:backgroundTint="#72F3F3F3"
+            android:src="@drawable/home"/>
         <ImageButton android:id="@+id/Imbtn2"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/shape_for_circle_buutton" />
+            android:scaleType="centerCrop"
+            android:padding="8sp"
+            android:backgroundTint="#72F3F3F3"
+            android:src="@drawable/film" />
         <ImageButton android:id="@+id/Imbtn3"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/shape_for_circle_buutton" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/camera"
+            android:padding="10sp"
+            android:backgroundTint="#72F3F3F3"
+            />
         <ImageButton android:id="@+id/Imbtn4"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/shape_for_circle_buutton" />
+            android:padding="5sp"
+            android:backgroundTint="#72F3F3F3"
+            android:src="@drawable/develop"
+            android:scaleType="centerCrop" />
     </LinearLayout>
 
 </LinearLayout>

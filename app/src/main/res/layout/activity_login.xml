@@ -11,13 +11,15 @@
         android:layout_height="60dp"
         android:layout_marginBottom="10dp">
 
-        <ImageButton android:id="@+id/logo"
+        <ImageButton
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="15dp"
             android:padding="0sp"
             android:scaleType="centerCrop"
+            android:id="@+id/logo"
             android:src="@drawable/logo" />
+
 
         <View
             android:layout_width="0dp"
@@ -30,33 +32,49 @@
             android:layout_margin="10dp"
             android:background="@drawable/shape_for_circle_buutton" />
     </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Log in"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:layout_margin="20dp"/>
 
-    <EditText
+    <ImageButton
+        android:id="@+id/mainprofile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_for_circle_buutton" />
+
+    <TextView
+        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:text="Name: 최가을"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email: w2110@e-mirim.hs.kr"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="대여 기록: 5"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsignout"
+        android:text="sign out"
+        android:backgroundTint="#ff0000"
         android:paddingLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:id="@+id/edtemail"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="password"
-        android:paddingLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:inputType="textPassword"
-        android:id="@+id/edtpassword"/>
+        android:layout_marginRight="10dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -64,31 +82,5 @@
         android:layout_weight="1">
     </ScrollView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="#E8E7E7"
-            android:textColor="@color/black"
-            android:text="sign up"
-            android:id="@+id/btnsignup"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="#FF0000"
-            android:textColor="#FFFFFF"
-            android:text="Log in"
-            android:id="@+id/btnlogin"/>
-
-    </LinearLayout>
 
 </LinearLayout>

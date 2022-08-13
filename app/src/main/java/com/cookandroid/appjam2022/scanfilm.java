@@ -1,5 +1,6 @@
 package com.cookandroid.appjam2022;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,6 +21,8 @@ public class scanfilm extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanfilm);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
         logo = findViewById(R.id.logo);
         Imbtn1 = findViewById(R.id.Imbtn1);
         Imbtn2 = findViewById(R.id.Imbtn2);
