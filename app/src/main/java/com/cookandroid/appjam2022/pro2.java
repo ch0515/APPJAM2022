@@ -100,7 +100,7 @@ public class pro2 extends AppCompatActivity {
                 count++;
                 pri = pri + 9000;
                 Quantity.setText(count+"");
-                price.setText(pri+"");
+                price.setText(pri+"won");
             }
         });
         minus.setOnClickListener(new View.OnClickListener() {
@@ -110,7 +110,7 @@ public class pro2 extends AppCompatActivity {
                     count--;
                     pri = pri - 9000;
                     Quantity.setText(count+"");
-                    price.setText(pri+"");
+                    price.setText(pri+"won");
                 }else{
                     Toast.makeText(getApplicationContext(),"가격과 수량이 0보다 작습니다.",Toast.LENGTH_LONG).show();
                 }
