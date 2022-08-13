@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="length">
-        <item>test1</item>
-        <item>test2</item>
+        <item>36 Exposures</item>
+        <item>24 Exposures</item>
+        <item>Others</item>
     </string-array>
 </resources>

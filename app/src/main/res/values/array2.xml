@@ -2,5 +2,7 @@
 <resources>
     <string-array name="type">
         <item>Color Film (C-41 Process)</item>
+        <item>B&amp;W Film (D-76 Process)</item>
+        <item>Movie Film (ECN-2 Process)</item>
     </string-array>
 </resources>

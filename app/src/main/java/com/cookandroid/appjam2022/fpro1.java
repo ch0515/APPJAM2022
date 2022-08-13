@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class fpro1 extends AppCompatActivity {
-    ImageButton logo,profile;
+    ImageButton logo,profile, Imbtn1, Imbtn2, Imbtn3, Imbtn4;
     TextView price, Quantity;
     Button minus, add;
     private int count;
@@ -22,6 +22,10 @@ public class fpro1 extends AppCompatActivity {
         setContentView(R.layout.activity_fpro1);
         logo = findViewById(R.id.logo);
         profile = findViewById(R.id.profile);
+        Imbtn1 = findViewById(R.id.Imbtn1);
+        Imbtn2 = findViewById(R.id.Imbtn2);
+        Imbtn3 = findViewById(R.id.Imbtn3);
+        Imbtn4 = findViewById(R.id.Imbtn4);
         price = findViewById(R.id.price);
         Quantity = findViewById(R.id.Quantity);
         minus = findViewById(R.id.minus);
@@ -40,6 +44,34 @@ public class fpro1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent int1 = new Intent(getApplicationContext(), login.class);
+                startActivity(int1);
+            }
+        });
+        Imbtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1 = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(int1);
+            }
+        });
+        Imbtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1 = new Intent(getApplicationContext(), buyfilm.class);
+                startActivity(int1);
+            }
+        });
+        Imbtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1 = new Intent(getApplicationContext(), rentCamera.class);
+                startActivity(int1);
+            }
+        });
+        Imbtn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1 = new Intent(getApplicationContext(), processfilm.class);
                 startActivity(int1);
             }
         });
