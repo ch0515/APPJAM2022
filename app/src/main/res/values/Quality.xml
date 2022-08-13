@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Quality">
+        <item>Standard Quailty</item>
+        <item>Moblie Quality</item>
+        <item>High Quality</item>
+    </string-array>
+</resources>

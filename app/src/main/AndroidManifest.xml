@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APPJAM2022">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".rentCamera"
+            android:exported="false" />
+        <activity
+            android:name=".processfilm"
+            android:exported="false" />
+        <activity
+            android:name=".scanfilm"
+            android:exported="false" />
+        <activity
             android:name=".buyfilm"
             android:exported="false" />
         <activity
