@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class processfilm extends AppCompatActivity {
     ImageButton logo, Imbtn1, Imbtn2, Imbtn3, Imbtn4, profile;
     TextView price, Quantity;
-    Button minus, add;
+    Button minus, add, keep, Buy;
     private int count;
     private int pri;
     @Override
@@ -31,6 +31,8 @@ public class processfilm extends AppCompatActivity {
         minus = findViewById(R.id.minus);
         Quantity = findViewById(R.id.Quantity);
         add = findViewById(R.id.add);
+        keep = findViewById(R.id.keep);
+        Buy = findViewById(R.id.buy);
         Quantity.setText(count+"");
         price.setText(pri+"");
         logo.setOnClickListener(new View.OnClickListener() {
@@ -75,11 +77,24 @@ public class processfilm extends AppCompatActivity {
                 startActivity(int1);
             }
         });
+        keep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+        Buy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1 = new Intent(getApplicationContext(), scanfilm.class);
+                startActivity(int1);
+            }
+        });
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 count++;
-                pri = pri + 3000;
+                pri = pri + 11000;
                 Quantity.setText(count+"");
                 price.setText(pri+"won");
             }
@@ -89,7 +104,7 @@ public class processfilm extends AppCompatActivity {
             public void onClick(View view) {
                 if (count>0 && pri>0){
                     count--;
-                    pri = pri - 3000;
+                    pri = pri - 11000;
                     Quantity.setText(count+"");
                     price.setText(pri+"won");
                 }else{

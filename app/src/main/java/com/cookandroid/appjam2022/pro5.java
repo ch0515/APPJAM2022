@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class pro5 extends AppCompatActivity {
     ImageButton logo,profile, Imbtn1, Imbtn2, Imbtn3, Imbtn4;
     TextView price, Quantity;
-    Button minus, add;
+    Button minus, add, keep, Buy;
     private int count;
     private int pri;
     @Override
@@ -31,6 +31,8 @@ public class pro5 extends AppCompatActivity {
         minus = findViewById(R.id.minus);
         Quantity = findViewById(R.id.Quantity);
         add = findViewById(R.id.add);
+        keep = findViewById(R.id.keep);
+        Buy = findViewById(R.id.buy);
         Quantity.setText(count+"");
         price.setText(pri+"");
         logo.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +74,20 @@ public class pro5 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent int1 = new Intent(getApplicationContext(), processfilm.class);
+                startActivity(int1);
+            }
+        });
+        keep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+        Buy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"결제 완료",Toast.LENGTH_LONG).show();
+                Intent int1 = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(int1);
             }
         });
