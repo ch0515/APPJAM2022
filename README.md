@@ -3,7 +3,7 @@
 <hr/>
 메인 화면
 
-![메인화면](https://user-images.githubusercontent.com/100042038/192104962-345223b3-b69a-48b7-8a6a-d9d396d63907.png){: width="100px" height="200px"}
+<img src="https://user-images.githubusercontent.com/100042038/192104962-345223b3-b69a-48b7-8a6a-d9d396d63907.png  width="200" height="400"/>
 
 필름 판매 화면
 
