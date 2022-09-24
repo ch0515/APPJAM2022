@@ -3,7 +3,7 @@
 <hr/>
 메인 화면
 
-<img src="https://user-images.githubusercontent.com/100042038/192104962-345223b3-b69a-48b7-8a6a-d9d396d63907.png  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/100042038/192105455-1ed0101f-7a99-43af-8a89-02080f0299cf.png  width="200" height="400"/>
 
 필름 판매 화면
 
