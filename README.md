@@ -7,13 +7,11 @@
 
 필름 판매 화면
 
-<img src="https://user-images.githubusercontent.com/100042038/192105461-6f2c0d68-b4bb-403b-9af2-068109c22603.png" width="200" height="400"/>
-<img src="https://user-images.githubusercontent.com/100042038/192105460-e825ffec-eb4f-4e2d-a9d8-94e22ef417eb.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/100042038/192105461-6f2c0d68-b4bb-403b-9af2-068109c22603.png" width="200" height="400"/> <img src="https://user-images.githubusercontent.com/100042038/192105460-e825ffec-eb4f-4e2d-a9d8-94e22ef417eb.png" width="200" height="400"/>
 
 카메라 대여 화면 
 
-<img src="https://user-images.githubusercontent.com/100042038/192105457-51ddff8a-b23a-437c-a012-08848e00cb23.png" width="200" height="400"/>
-<img src="https://user-images.githubusercontent.com/100042038/192105458-bf0c46fd-ee20-4ba0-a768-35b80b4805a6.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/100042038/192105457-51ddff8a-b23a-437c-a012-08848e00cb23.png" width="200" height="400"/> <img src="https://user-images.githubusercontent.com/100042038/192105458-bf0c46fd-ee20-4ba0-a768-35b80b4805a6.png" width="200" height="400"/>
 
 필름 현상 
 
